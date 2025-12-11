@@ -1,57 +1,64 @@
-<!-- 포스트 전용 스타일 -->
 <style>
+  /* 전체 스타일 */
   .post-container {
     font-family: "Segoe UI", sans-serif;
-    color: #e8e8f5;
-    background: linear-gradient(135deg, #1e2148, #2a315d, #16192d);
-    padding: 35px 25px;
-    border-radius: 16px;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.4);
-    margin-top: 20px;
+    color: #e5e7f5;
+    background: #1c1f33;   /* 차분한 단색 다크톤 */
+    padding: 40px 32px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.08);
+    margin-top: 25px;
+    line-height: 1.7;
   }
 
+  /* 제목 */
   .post-title {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
-    margin-bottom: 10px;
-    background: linear-gradient(90deg, #8ec5ff, #b7a4ff);
+    margin-bottom: 18px;
+    background: linear-gradient(90deg, #9bbcff, #caa8ff);
     -webkit-background-clip: text;
     color: transparent;
   }
 
+  /* 섹션 제목 */
   .section-title {
     margin-top: 30px;
-    margin-bottom: 10px;
-    font-size: 22px;
+    margin-bottom: 12px;
+    font-size: 20px;
     font-weight: 600;
-    color: #cfd9ff;
+    color: #c9d2ff;
   }
 
   .post-container p {
-    line-height: 1.7;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
+    color: #d7daf2;
   }
 
+  /* 강조 박스 */
   .highlight-box {
-    background: rgba(255,255,255,0.1);
-    padding: 15px 18px;
+    background: rgba(255,255,255,0.06);
+    padding: 16px 20px;
     border-radius: 10px;
-    margin: 20px 0;
-    border-left: 4px solid #7aa2ff;
+    margin: 22px 0;
+    border-left: 4px solid #8aaaFF;
+    color: #dce0f9;
   }
 
+  /* 태그 영역 */
   .tag-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 10px;
+    gap: 8px;
+    margin-top: 14px;
   }
 
   .tag {
-    padding: 4px 10px;
+    padding: 5px 12px;
     font-size: 13px;
     border-radius: 50px;
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: #d8dcf9;
   }
 </style>
