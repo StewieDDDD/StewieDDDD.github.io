@@ -3,7 +3,7 @@ layout: post
 title: "AI 시대의 프론트엔드 개발 트렌드"
 ---
 
-<!-- 🔥 포스트 전용 스타일 -->
+<!-- 포스트 전용 스타일 -->
 <style>
   .post-container {
     font-family: "Segoe UI", sans-serif;
@@ -133,5 +133,5 @@ title: "AI 시대의 프론트엔드 개발 트렌드"
 </div>
 
 <p align="center">
-  <img src="/images/ai.png" alt="AI Image" style="width: 100px; border-radius: 12px;">
+  <img src="/images/ai.png" alt="AI Image" style="width: 400px; border-radius: 12px;">
 </p>
