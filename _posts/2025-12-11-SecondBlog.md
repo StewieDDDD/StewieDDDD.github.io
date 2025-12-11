@@ -132,4 +132,5 @@ title: "AI 시대의 프론트엔드 개발 트렌드"
 
 </div>
 
-![AI 이미지](/images/ai.png)
+![AI 이미지](/images/ai.png){: style="width:100px;" }
+
