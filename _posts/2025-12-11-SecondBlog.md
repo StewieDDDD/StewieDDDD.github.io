@@ -132,5 +132,6 @@ title: "AI 시대의 프론트엔드 개발 트렌드"
 
 </div>
 
-![AI 이미지](/images/ai.png){: style="width:100px;" }
-
+<p align="center">
+  <img src="/images/ai.png" alt="AI Image" style="width: 100px; border-radius: 12px;">
+</p>
