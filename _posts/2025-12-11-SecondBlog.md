@@ -3,93 +3,133 @@ layout: post
 title: "AI 시대의 프론트엔드 개발 트렌드"
 ---
 
+<!-- 🔥 포스트 전용 스타일 -->
 <style>
   .post-container {
-    font-family: "Montserrat", sans-serif;
-    color: #e8e8e8;
-    line-height: 1.7;
-    padding: 25px;
-    background: rgba(255,255,255,0.05);
-    border-radius: 15px;
-    backdrop-filter: blur(8px);
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    font-family: "Segoe UI", sans-serif;
+    color: #e8e8f5;
+    background: linear-gradient(135deg, #1e2148, #2a315d, #16192d);
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.4);
+    margin-top: 20px;
   }
 
-  h1, h2 {
-    color: #ffffff;
-    font-weight: 600;
-  }
-
-  .highlight {
-    color: #8ab4ff;
-    font-weight: 600;
-  }
-
-  .ai-img {
-    width: 100%;
-    border-radius: 12px;
-    margin: 22px 0;
-    box-shadow: 0 0 20px rgba(0,0,0,0.35);
-  }
-
-  ul li {
+  .post-title {
+    font-size: 32px;
+    font-weight: 700;
     margin-bottom: 10px;
+    background: linear-gradient(90deg, #8ec5ff, #b7a4ff);
+    -webkit-background-clip: text;
+    color: transparent;
   }
 
   .section-title {
-    margin-top: 35px;
-    margin-bottom: 15px;
-    font-size: 23px;
-    color: #a8c4ff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #cfd9ff;
+  }
+
+  .post-container p {
+    line-height: 1.7;
+    margin-bottom: 14px;
+  }
+
+  .highlight-box {
+    background: rgba(255,255,255,0.1);
+    padding: 15px 18px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border-left: 4px solid #7aa2ff;
+  }
+
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .tag {
+    padding: 4px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.25);
   }
 </style>
 
 <div class="post-container">
 
-<h1>AI 시대의 프론트엔드 개발 트렌드</h1>
+  <h1 class="post-title">AI 시대의 프론트엔드 개발 트렌드</h1>
 
-<img src="/assets/images/ai.png" alt="AI Frontend" class="ai-img">
+  <p>
+    최근 몇 년 사이에 프론트엔드 개발 생태계는 매우 빠르게 변화하고 있습니다.  
+    특히 AI 기술이 개발 과정에 깊숙이 자리 잡으면서 개발자의 역할과 필요한 기술도 함께 변화하고 있습니다.
+  </p>
 
-<p>
-프론트엔드 개발은 최근 몇 년간 그 어느 때보다 빠른 속도로 변화하고 있습니다.  
-특히 <span class="highlight">AI 기술의 등장</span>은 기존 개발 방식의 패러다임을 완전히 바꾸어 놓고 있으며,  
-개발자들은 새로운 도구와 워크플로우에 적응하면서 더 효율적인 개발 환경을 구축하고 있습니다.
-</p>
+  <div class="highlight-box">
+    AI는 개발자의 자리를 위협하는 존재가 아니라  
+    <strong>"개발 생산성을 극대화시키는 도구"</strong>입니다.
+  </div>
 
-<h2 class="section-title">1. AI 기반 자동 코드 생성</h2>
-<ul>
-  <li>GitHub Copilot, ChatGPT 등 AI 도구가 코드 작성 보조 역할을 수행</li>
-  <li>반복적인 UI 코드, form validation, API 구조 작성 시간을 크게 단축</li>
-  <li>개발자는 “창의적인 설계”와 “품질 개선”에 집중할 수 있게 됨</li>
-</ul>
+  <h2 class="section-title">1. AI와 함께 발전하는 개발 워크플로우</h2>
 
-<h2 class="section-title">2. 디자이너 없이도 가능한 UI 자동 생성</h2>
-<ul>
-  <li>AI가 프롬프트 기반으로 UI 시안을 자동 생성</li>
-  <li>Figma → 코드 변환 자동화(React, Vue, Tailwind 등)</li>
-  <li>프로토타이핑 속도 증가 → 스타트업에서 더욱 강력한 생산성 향상</li>
-</ul>
+  <p>
+    GitHub Copilot, ChatGPT 등 AI 기반 코딩 도구의 등장으로  
+    반복적인 UI 코드 작성과 패턴화된 처리 로직은 자동화되고 있습니다.
+  </p>
 
-<h2 class="section-title">3. 프론트엔드 개발자의 역할 변화</h2>
-<ul>
-  <li><span class="highlight">“코드를 작성하는 사람” → “AI를 활용해 문제를 해결하는 사람”</span>으로 진화</li>
-  <li>생산성 도구 설정, 코드 품질 관리, 설계 역량이 더 중요해짐</li>
-  <li>UI/UX 감각과 논리적 설계 능력이 개발자의 핵심 스킬로 부상</li>
-</ul>
+  <ul>
+    <li>UI 스케치 → 코드 자동 생성</li>
+    <li>반복적인 컴포넌트 템플릿 자동화</li>
+    <li>디버깅 및 코드 리뷰 보조</li>
+  </ul>
 
-<h2 class="section-title">4. 앞으로 프론트엔드는 더 자동화된다</h2>
-<ul>
-  <li>반복적인 CRUD 페이지는 AI가 대부분 자동 생성</li>
-  <li>개발자는 상위 레벨의 설계, 최적화, 팀 커뮤니케이션 역할을 수행</li>
-  <li>“AI를 잘 쓰는 사람 = 더 빠르고 정확한 개발자”가 되는 시대</li>
-</ul>
+  <h2 class="section-title">2. 프론트엔드 개발자가 중요하게 가져야 할 역량</h2>
 
-<h2 class="section-title">결론</h2>
-<p>
-AI는 단순히 개발을 도와주는 도구가 아니라,  
-프론트엔드 개발 방식 자체를 재정의하고 있습니다.  
-변화를 두려워하기보다 적극적으로 받아들이는 개발자가  
-다가오는 AI 시대의 핵심 인재가 될 것입니다.
-</p>
+  <p>AI가 코드를 대신 작성해도, 사람이 해야 할 중요한 영역은 여전히 남아 있습니다.</p>
+
+  <ul>
+    <li>UX 설계 능력</li>
+    <li>서비스 흐름 이해 능력</li>
+    <li>퍼포먼스 최적화</li>
+    <li>컴포넌트 구조 설계</li>
+  </ul>
+
+  <div class="highlight-box">
+    결국 중요한 것은  
+    <strong>"AI가 대신해줄 수 없는 영역을 다루는 개발자"</strong>가 되는 것입니다.
+  </div>
+
+  <h2 class="section-title">3. 앞으로 어떤 기술을 배우면 좋을까?</h2>
+
+  <p>AI 시대에 프론트엔드 개발자에게 추천되는 기술 스택은 다음과 같습니다.</p>
+
+  <div class="tag-list">
+    <span class="tag">React</span>
+    <span class="tag">Next.js</span>
+    <span class="tag">TypeScript</span>
+    <span class="tag">Tailwind CSS</span>
+    <span class="tag">GraphQL</span>
+    <span class="tag">AI 도구 활용 능력</span>
+  </div>
+
+  <h2 class="section-title">4. 결론</h2>
+
+  <p>
+    AI는 개발자의 역할을 대체하는 것이 아니라  
+    더 높은 레벨의 사고와 설계를 요구하는 시대를 만들고 있습니다.
+  </p>
+
+  <p>
+    단순히 화면을 만드는 개발자가 아니라  
+    <strong>"사용자 경험을 설계하고, 기술을 통해 문제를 해결하는 개발자"</strong>가  
+    앞으로 더욱 가치 있는 인재가 될 것입니다.
+  </p>
 
 </div>
+
+![AI 이미지](/images/ai.png)
