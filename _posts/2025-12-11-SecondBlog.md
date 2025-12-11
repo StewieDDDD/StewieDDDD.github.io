@@ -3,63 +3,98 @@ layout: post
 title: "AI 시대의 프론트엔드 개발 트렌드"
 ---
 
-<!-- 포스트 전용 스타일 -->
 <style>
+  /* 전체 컨테이너 */
   .post-container {
     font-family: "Segoe UI", sans-serif;
-    color: #e8e8f5;
-    background: linear-gradient(135deg, #1e2148, #2a315d, #16192d);
-    padding: 35px 25px;
-    border-radius: 16px;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.4);
-    margin-top: 20px;
+    color: #e7e9f2;
+    background: #1c1f2b;
+    padding: 40px 32px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.06);
+    margin-top: 25px;
+    line-height: 1.75;
   }
 
+  /* 제목 */
   .post-title {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
-    margin-bottom: 10px;
-    background: linear-gradient(90deg, #8ec5ff, #b7a4ff);
+    margin-bottom: 18px;
+    background: linear-gradient(90deg, #9fc4ff, #d5a8ff);
     -webkit-background-clip: text;
     color: transparent;
+    letter-spacing: -0.3px;
   }
 
+  /* 섹션 제목 */
   .section-title {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 32px;
+    margin-bottom: 14px;
     font-size: 22px;
     font-weight: 600;
-    color: #cfd9ff;
+    color: #cdd3ff;
   }
 
   .post-container p {
-    line-height: 1.7;
+    margin-bottom: 18px;
+    color: #d5d8e6;
+    font-size: 16px;
+  }
+
+  /* 강조 박스 */
+  .highlight-box {
+    background: rgba(255,255,255,0.06);
+    padding: 18px 20px;
+    border-radius: 10px;
+    margin: 24px 0;
+    border-left: 4px solid #7fa6ff;
+    color: #e4e6f3;
+  }
+
+  /* 목록 스타일 */
+  ul {
+    margin-left: 18px;
     margin-bottom: 14px;
   }
 
-  .highlight-box {
-    background: rgba(255,255,255,0.1);
-    padding: 15px 18px;
-    border-radius: 10px;
-    margin: 20px 0;
-    border-left: 4px solid #7aa2ff;
+  ul li {
+    margin-bottom: 6px;
+    color: #d6d8e4;
   }
 
+  /* 태그 리스트 */
   .tag-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 10px;
+    gap: 10px;
+    margin-top: 12px;
   }
 
   .tag {
-    padding: 4px 10px;
+    padding: 6px 14px;
     font-size: 13px;
     border-radius: 50px;
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: #d7daf0;
+  }
+
+  /* 이미지 정리 */
+  .post-image {
+    display: block;
+    margin: 35px auto 5px;
+    width: 360px;
+    border-radius: 12px;
+    opacity: 0.95;
+    transition: 0.3s ease;
+  }
+
+  .post-image:hover {
+    opacity: 1;
   }
 </style>
+
 
 <div class="post-container">
 
