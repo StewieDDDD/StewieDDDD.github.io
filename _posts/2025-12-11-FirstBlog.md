@@ -1,20 +1,21 @@
 ---
-
+<br>
 layout: post
-
+<br>
 title: History of Version Control Systems
-
+<br>
 ---
-
+<br>
 
 
 
 # 버전 관리 시스템의 역사
 
 
-
-
-
+<br>
+<br>
+<br>
+<br>
 * SCCS(Source Code Control System)
   - 1972~1973년 벨 연구소에서 개발된 최초의 버전 관리 시스템
   - 델타 방식
