@@ -1,19 +1,10 @@
 ---
-<br>
 layout: post
-<br>
 title: History of Version Control Systems
-<br>
 ---
-<br>
-
-
 
 # 버전 관리 시스템의 역사
 
-
-<br>
-<br>
 <br>
 <br>
 * SCCS(Source Code Control System)
